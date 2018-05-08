@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Basra Game</title>
+<link rel="stylesheet" type="text/css" href="basra.css">
+<script type="text/javascript" src="jquery-3.1.1.js"></script>
+</head>
+<body id="start_back">
+
+<div id="splash">
+
+
+<form>
+	<h2> Choose Your Avatar</h2>
+    <img src="avataaars2.png"><img src="avataaars1.png">
+	
+	  <h2>Player Name</h2>
+	  <input id="pval"type="text" name="FirstName" required><br>
+	  <button id="sub" formaction="basra.html"> Play </button>
+	</form>
+	
+</div>
+
+</body>
+<script>
+
+
+
+var sr=" ";
+var PlayerName;
+var $img = $("img").on("click",function(){
+	 sr=$(this).attr("src");
+	 $img.not(this).removeClass(("img-borer"));
+	 $(this).toggleClass("img-borer");
+	console.log(sr);
+});
+
+$("input").keyup(function() {
+   PlayerName = $( this ).val();
+  console.log(PlayerName);
+  })
+
+$("button").on("click",function(){
+    var myData = [sr,PlayerName];
+	localStorage.setItem( 'objectToPass', myData );
+});
+
+</script>
+</html>

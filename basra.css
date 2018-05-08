@@ -1,0 +1,244 @@
+body{
+	margin: 0px;
+	background-image: url("planks-textures-wood-panels-2560x1600-wallpaper.jpg");
+	background-size: cover;
+	width: calc(100vw - 17px);
+}
+#result{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(85, 0, 0 ,.4);
+	text-align: center;
+}
+input{
+	border-radius: 15px;
+	border: none;
+	height: 30px;
+}
+#start{
+	width: 300px;
+	height: 100px;
+}
+#res_h{
+	text-align: center;
+	vertical-align: middle;
+	padding: 200px;
+}
+h1{
+	color: #fff;
+	font-size: 100px;
+	
+	vertical-align: middle;
+
+}
+#computer ,#player{
+
+	width: 100%;
+	height: 160;
+	font-size: 0px;
+	text-align: center;
+	position: relative;
+	padding: 30px 0px;
+
+	
+}
+button{
+	padding: 5px;
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	border-radius: 15px;
+	font-size: 20px;
+	border: none;
+	
+}
+#deck_button{
+	display: none;
+	margin-top: 100px;
+}
+button:hover{
+	cursor: pointer;
+	background-color: #76c2af;
+	color: #fff;
+}
+#comp-position {
+	position: absolute;
+	bottom:19px;
+	left: 425px;
+
+}
+#table{
+	text-align: center;
+}
+#comp-card img,#plater1-card img ,#table img ,#comp-position img{
+	width: 80px;
+	height: 130px;
+
+}
+#plater1-card img {
+	margin: 10px;
+}
+#plater1-card img:hover{
+	cursor: pointer;
+	border: 5px solid red ;
+    width: 100px;
+	height: 150px;
+
+}
+
+#comp-position img{
+	margin: 10px;
+}
+#comp-card,#plater1-card{
+display: inline-block;
+width: 50%;
+height: 100%;
+font-size: initial;
+
+}
+#player2 ,#player1{
+	display: inline-block;
+	width: 15%;
+	height: 40%;
+	float: right;
+    margin-right: 50px;
+	
+	/*padding: 2px;*/
+	/*vertical-align: top;
+	text-align: center;*/
+    font-size: initial;
+
+}
+
+#player2-div ,#player1-div{
+	border: 2px solid #fff;
+	/*padding: 10px*/;
+	color: #fff;
+	border-radius: 15px;
+
+}
+
+
+
+
+
+
+
+
+	
+
+#deck{
+	width: 100%;
+	height: 300px;
+	background-color: rgba(85, 0, 0 ,.4);
+
+}
+#dck-img{
+	text-align: center;
+}
+#table img {
+	margin-left: 20px;
+}
+
+#cards{
+	display: inline-block;
+	width: 10%;
+}
+#cards img{
+	height: 50px;
+	width: 50px;
+
+}
+
+
+#table{
+	display: inline-block;
+	width: 70%;
+}
+#round{
+	display: inline-block;
+	width: 15%;
+	margin-top:7%;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #000;
+}
+#round-div{
+
+	
+	
+	/*border: 2px solid #fff;*/
+	padding: 2px;
+	vertical-align: top;
+	text-align: center;
+	color: #000;
+    
+
+}
+
+
+#player , #computer{
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+
+
+#comp-card ,#player2 ,.imHeight ,#cards ,#table ,#round ,#plater1-card ,#player1{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+
+
+.imHeight img{
+	width: 120px;
+}
+
+
+
+
+
+
+
+#start_back{
+	background-image: url("planks-textures-wood-panels-2560x1600-wallpaper.jpg");
+}
+#splash{
+	background-color:#330d00;
+	height: auto;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+h2{
+	color: #fff;
+}
+#splash img{
+	width: 150px;
+	padding: 20px;
+}
+#sub , #pval{
+	width:80%;
+	height: 40px; 
+}
+#pval{
+	padding-left: 20px;
+}
+form{
+	padding: 50px;
+	margin-top: 60px;
+}
+form h2{
+	padding-bottom: 0px;
+}
+.img-borer{
+	border:3px solid #fff; 
+	border-radius: 100px;
+}
